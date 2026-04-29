@@ -20,7 +20,7 @@ if file1 and file2:
     st.success("تم تحميل الملفات")
 
     # 🔹 تختار العمود بنفسك
-    col = st.selectbox("اختار عمود اسم الموظف:", df1.columns)
+    col = st.selectbox("اختار العامود:", df1.columns)
 
     set1 = set(df1[col].dropna())
     set2 = set(df2[col].dropna())
