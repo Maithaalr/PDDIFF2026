@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("مقارنة الموظفين بين داتاسيتين")
+st.title("مقارنة كشف البيانات")
 
 file1 = st.file_uploader("ارفع الداتاسيت الأولى", type=["xlsx", "csv"])
 file2 = st.file_uploader("ارفع الداتاسيت الثانية", type=["xlsx", "csv"])
